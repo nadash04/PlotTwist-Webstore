@@ -1,0 +1,116 @@
+body {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #7c5036;
+  color: white;
+  padding: 0.56cm; 
+  text-align: center;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 0.56cm; /* 20px */
+  left: 0.56cm; /* 20px */
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.book-card {
+  direction: ltr;
+  text-align: left;
+}
+
+.bookshelf-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  direction: ltr;
+  text-align: left;
+}
+
+.book-item {
+  background-color: white;
+  border-radius: 0.28cm; /* 10px */
+  display: flex;
+  padding: 0.42cm; /* 15px */
+  box-shadow: 0 0.07cm 0.17cm rgba(0,0,0,0.1); /* 2px 6px */
+  align-items: center;
+}
+
+.book-item img {
+  width: 2.8cm; /* 100px */
+  height: 3.94cm; /* 140px */
+  object-fit: cover;
+  border-radius: 0.21cm; /* 6px */
+}
+
+.book-info {
+  margin-left: 0.56cm; /* 20px */
+  flex-grow: 1;
+  
+}
+
+.book-info h3 {
+  margin: 0;
+  font-size: 0.63cm; /* 18px */
+}
+
+.book-info p {
+  color: #666;
+  margin: 0.14cm 0 0.42cm; /* 5px 0 15px */
+}
+
+.actions {
+  display: flex;
+  gap: 0.28cm; /* 10px */
+}
+
+.actions button {
+  padding: 0.22cm 0.5cm; /* 8px 14px */
+  border: none;
+  border-radius: 0.21cm; /* 6px */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.read-btn {
+  background-color: #7c5036;
+  color: white;
+}
+nav {
+  background-color: #A66E38; /* بني ذهبي متوسط */
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #F8F4E1; /* بيج فاتح */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #DEAC80; /* خوخي ناعم */
+  color: #543310; /* بني داكن */
+}

@@ -1,0 +1,214 @@
+html {
+  font-size: 80%; 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: #F8F4E1;
+  color: #543310;
+  line-height: 1.6;
+  direction: rtl;
+}
+
+.header {
+  background: linear-gradient(to right, #A66E38, #825B32, #654520);
+  color: #F8F4E1;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.MainList{
+
+  font-size: .5rem;
+}
+
+.header nav a {
+  color: #F7DCB9;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #DEAC80;
+}
+nav a {
+  font-size: 2rem; 
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+
+.header-btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #DEAC80;
+  color: #543310;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-btn:hover {
+  background-color: #A66E38;
+}
+
+.my-account-btn {
+  display: inline-block;
+  margin: 1.5rem 0 1.5rem 1rem;
+  background-color: #74512D;
+  color: #F8F4E1;
+ padding: 0.6rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.my-account-btn:hover {
+  background-color: #543310;
+    text-align: center;
+
+}
+
+.second-nav {
+  font-size: .1.6rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.second-nav a {
+  background-color: #C0C78C;
+  color: #543310;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.second-nav a:hover {
+  background-color: #A6B37D;
+}
+
+.offer {
+  background-color: #DEAC80;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  border-top: 3px solid #A66E38;
+  border-bottom: 3px solid #A66E38;
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #914F1E;
+}
+
+
+.row1,
+.fovRow,
+.laterRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.book-card,
+.fovbook,
+.ToRead {
+  background-color: #fff;
+  border: 1px solid #B5C18E;
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(84, 51, 16, 0.1);
+}
+
+.book-img,
+.pic1,
+.fovPic,
+.laterbook {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; 
+  margin-bottom: 0.8rem;
+}
+
+.book-title,
+.fovstars,
+.laterName {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.book-price,
+.price {
+  color: #74512D;
+  margin: 0.5rem 0;
+}
+
+.stars1,
+.starsFav,
+.starsLater {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+  color: gold;
+}
+
+.btn{
+  background-color: #DEAC80;
+  color: #543310;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #A66E38;
+  color: #F8F4E1;
+}
+
+.site-footer {
+  background-color: #543310;
+  color: #F8F4E1;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+

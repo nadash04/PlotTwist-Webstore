@@ -1,0 +1,94 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F4E1; 
+  color: #543310;
+  direction: rtl;
+}
+
+header {
+  background-color: #654520;
+  color: #F8F4E1;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color: #DEAC80;
+}
+
+.Later,.fov,.NowReading{
+  padding: 20px;
+}
+
+.Later,.fov,.NowReading h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #914F1E; 
+  border-bottom: 2px solid #C0C78C; 
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.book-list {
+  display: flex;          /* يضع العناصر بجانب بعض بشكل أفقي */
+  gap: 20px;              /* مسافة بين كل عنصر وآخر */
+  overflow-x: auto;       /* يضيف شريط تمرير أفقي إذا كانت العناصر أطول من عرض الشاشة */
+  padding-bottom: 10px;   /* مسافة أسفل القائمة (مفيدة إذا ظهر شريط التمرير) */
+}
+
+
+.book-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #B5C18E; 
+  box-shadow: 0 2px 8px rgba(84, 51, 16, 0.08); 
+  text-align: center;
+  min-width: 150px;
+  padding: 10px;
+  text-align: left;
+
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.rating {
+    text-align: left;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #A66E38; 
+}
+nav {
+  background-color: #A66E38;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #F8F4E1;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #DEAC80; 
+  color: #543310; 
+}

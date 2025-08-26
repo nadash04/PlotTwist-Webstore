@@ -5,7 +5,6 @@ PlotTwistis a web-based bookstore project that allows users to browse and purcha
 
 Technologies Used:
 - HTML5, CSS3
-- (Optionally: JavaScript if used)
 
 Features:
 - Browse books by category or author
